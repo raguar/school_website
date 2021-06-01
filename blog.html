@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"/>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Pothihai Public School</title>
+</head>
+<body>
+    <section class="sec-header">
+        <nav>
+            <a href="index.html"><img src="images/blue-logo1.png" alt="pothihai-logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="far fa fa-times-circle" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    
+                </ul>
+            </div>
+            <i class="fas fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & Program For 2021</h1>
+    
+    </section>
+    
+    <!-- Blog Content -->
+        <section class="blog-content">
+            <div class="row">
+                <div class="blog-left">
+                    <img src="images/certificate.jpg" alt="">
+                    <h2>Our Certificate & Program For 2021</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam deserunt nesciunt ab! Non consectetur atque repudiandae sunt dolorem assumenda nisi quis rerum saepe eum? Voluptatibus nesciunt quis quam, corrupti necessitatibus pariatur perspiciatis possimus nisi ex totam in earum corporis commodi. Consequuntur hic dolorem officia nemo dolores enim rerum facere blanditiis.</p>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At blanditiis accusantium porro reprehenderit doloribus similique et aut quidem, voluptate natus quisquam molestiae dignissimos eius repellat culpa earum, distinctio magni eligendi omnis sit voluptas quasi debitis itaque ut. Nostrum a totam omnis ipsa! Laudantium dolore odit voluptates voluptate asperiores perferendis a, dolorem fuga explicabo sequi exercitationem consectetur, quis provident. Temporibus dicta alias commodi quidem quia dolores sed quae distinctio facere repudiandae fugit optio accusantium harum vero totam cum nulla unde soluta debitis, eveniet ab. Beatae repellendus asperiores fugit alias eveniet voluptatum.</p>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolor commodi id asperiores eaque sed reiciendis, doloribus corrupti facilis, quam ipsa explicabo hic harum eligendi sunt ipsam. Nobis saepe officiis rerum quasi quos libero aut sit, nisi voluptatum doloremque magni, quia fuga, asperiores iusto doloribus in repudiandae ab cumque! Odio cumque quas assumenda iste, sequi nesciunt sint delectus id explicabo laboriosam exercitationem, aliquam ex nobis, eaque quasi accusantium ad? Inventore.</p>
+                    <br>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum dolorem voluptatibus perferendis molestias consectetur illo dolore impedit doloremque, aut labore quae, accusantium reiciendis hic atque dolorum quo possimus rem placeat ipsum. Expedita ipsum facere voluptatum. Sint ipsam odio quos consequatur assumenda nulla. Iusto iste sequi perferendis, accusamus error excepturi! Repellat.</p>
+
+                    <div class="cmd-box">
+                        <h3>Leave a Comment</h3>
+
+                        <form action="" class="cmd-form">
+                            <input type="text" placeholder="Enter Name">
+                            <input type=email" placeholder="Enter Email">
+                            <textarea id="text-area"rows="5" placeholder="Your Comment"></textarea>
+                            <button type="submit" class="head-btn btn-color">POST COMMENT</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="blog-right">
+                    <h3>Post Categories</h3>
+                    <div>
+                        <span>Extra Curricular Activities</span>
+                    </div>
+                    <div>
+                        <span>Sports</span>
+                    </div>
+                    <div>
+                        <span>Computer Classes</span>
+                    </div>
+                    <div>
+                        <span>Art Work</span>
+                    </div>
+                    <div>
+                        <span>Smart Class</span>
+                    </div>
+                    <div>
+                        <span>Physical Science</span>
+                    </div>
+                </div>
+            </div>
+        </section> 
+
+  
+    <!-- Footer -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe in et nesciunt enim voluptatum unde,<br> assumenda consequatur dignissimos labore, eius recusandae dolore eaque dolorem fugiat.</p>
+
+        <div class="ico">
+        <i class="social fab fa-facebook-f"></i>
+        <i class="social fab fa-twitter"></i>
+        <i class="social fab fa-instagram"></i>
+        <i class="social fab fa-linkedin"></i>
+
+        </div>
+
+        <p>Copyright &copy; 2021</p>
+    </section>
+
+    <!-- Javascript for Toggle Menu -->
+    <script>
+        let navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0"
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px"
+        }
+    </script>
+</body>
+</html>

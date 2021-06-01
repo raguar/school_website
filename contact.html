@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"/>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Pothihai Public School</title>
+</head>
+<body>
+    <section class="sec-header">
+        <nav>
+            <a href="index.html"><img src="images/blue-logo1.png" alt="pothihai-logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="far fa fa-times-circle" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    
+                </ul>
+            </div>
+            <i class="fas fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+    
+    </section>
+
+        <!-- Conatct  -->
+
+        <section class="place">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31581.457571225208!2d77.84593177105822!3d8.334341964400162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa6d4abc4978e832d!2sPothihai%20Public%20School!5e0!3m2!1sen!2sin!4v1622473366238!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+
+        <section class="contact-us">
+            <div class="row">
+                <div class="contact-col">
+                    <div>
+                        <i class="fas fa-home"></i>
+                        <span>
+                            <h5>ABC Road, XYZ Building</h5>
+                            <p>Tisaiyanvilai, Tirunelveli, TN</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fas fa-phone"></i>
+                        <span>
+                            <h5>+91 9876543210</h5>
+                            <p>Monday to Saturday, 9am to 6pm</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fas fa-envelope"></i>
+                        <span>
+                            <h5>123abc@gmail.com</h5>
+                            <p>Email us your query</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="contact-col">
+                     <form method="POST" data-netlify="true" data-netlify-recaptcha="true">
+                            <input type="text" name="name" placeholder="Enter Your Name" required>
+                            <input type=email" name="email" placeholder="Enter Your Email" required>
+                            <input type=text" name="subject" placeholder="Enter Your Subject" required>
+                            <textarea id="text-area" name="message" rows="8" placeholder="Message" required></textarea>
+                            
+                            <div data-netlify-recaptcha="true"></div>
+                            <button type="submit" class="head-btn btn-color">Send Message</button>
+                        </form>
+                </div>
+            </div>
+        </section>
+    
+   
+
+   
+
+  
+    <!-- Footer -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe in et nesciunt enim voluptatum unde,<br> assumenda consequatur dignissimos labore, eius recusandae dolore eaque dolorem fugiat.</p>
+
+        <div class="ico">
+        <i class="social fab fa-facebook-f"></i>
+        <i class="social fab fa-twitter"></i>
+        <i class="social fab fa-instagram"></i>
+        <i class="social fab fa-linkedin"></i>
+
+        </div>
+
+        <p>Copyright &copy; 2021</p>
+    </section>
+
+    <!-- Javascript for Toggle Menu -->
+    <script>
+        let navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0"
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px"
+        }
+    </script>
+</body>
+</html>
